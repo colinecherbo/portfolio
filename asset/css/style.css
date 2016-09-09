@@ -6,6 +6,7 @@ body {
 	background-color: blue;
 	overflow:hidden;
 	position:relative;
+	background:url('../img/halftone.png');
 }
 
 .wrap {
@@ -110,7 +111,7 @@ body {
 
 
 /* add Michael BoLoss du 31 */
-.background{position:absolute;width:100%;height:100vh;top:0;left:0;background:url(assets/halftone.png);z-index:-1;opacity: .6;}
+/*.background{position:absolute;width:100%;height:100vh;top:0;left:0;background:url(assets/halftone.png);z-index:-1;opacity: .6;}*/
 a svg{transition:0.4s cubic-bezier(.48,.01,0,.99);transform:rotate(90deg);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg)}
 a svg *{position:relative;z-index:2;}
 a svg circle{position:relative;z-index:1;transition:0.4s cubic-bezier(.48,.01,0,.99);opacity:0;position:relative;fill: #DE4A22;}
@@ -128,4 +129,3 @@ a svg:hover circle{opacity:1;}
 .social > div{padding: 0 20px 0 0;position:relative;}
 .social > div::after{content:"";width:1px;bottom:8px;position:absolute;top:4px;right:-1px;background:#3C3838;}
 .social{padding-top:90px;}
-

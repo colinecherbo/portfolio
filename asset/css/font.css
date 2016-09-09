@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Gotham C2 Text';
+  src: url('../fonts/GothamC2Text.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GothamC2Text.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GothamC2Text.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GothamC2Text.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GothamC2Text.svg#01eac439d0bb529025ac033bc0ad798c') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Gotham C2 Text';
+  src: url('../fonts/GothamC2Text-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GothamC2Text-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GothamC2Text-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GothamC2Text-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GothamC2Text-Bold.svg#08f957b4de33e20286efe02ce960256f') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Chronicle Deck';
+  src: url('../fonts/ChronicleDeck-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ChronicleDeck-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ChronicleDeck-Italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ChronicleDeck-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ChronicleDeck-Italic.svg#dce450124e70fbbfcf1f8eb9a26ed5a2') format('svg'); /* Legacy iOS */
+
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Chronicle Deck Semi';
+  src: url('../fonts/ChronicleDeck-Semi.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ChronicleDeck-Semi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ChronicleDeck-Semi.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ChronicleDeck-Semi.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ChronicleDeck-Semi.svg#3514d0e25031d2d58335cb0157125272') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Chronicle Deck Bold';
+  src: url('../fonts/ChronicleDeck-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ChronicleDeck-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ChronicleDeck-BoldItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ChronicleDeck-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ChronicleDeck-BoldItalic.svg#a7b414567d7d7450727118ed4c548cc6') format('svg'); /* Legacy iOS */
+
+  font-style:   italic;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Gotham Ultra';
+  src: url('../fonts/GothamUltra.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GothamUltra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GothamUltra.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/GothamUltra.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GothamUltra.svg#db7a69c6bf801b8515e646bb554f0290') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
