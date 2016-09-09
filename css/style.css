@@ -1,0 +1,131 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: blue;
+	overflow:hidden;
+	position:relative;
+}
+
+.wrap {
+	width: 38em;
+	margin: 4.5em auto;
+	color: #3C3838;
+	position:relative;z-index:100;
+}
+
+.wrap h1 {
+	font-size: 2.3em;
+	font-family: 'Chronicle Deck Semi';
+}
+
+.wrap .coline {
+	font-family: 'Chronicle Deck Bold';
+	font-style: italic;
+	font-weight:  700;
+	color: #90B858;
+}
+
+.wrap i {
+	font-family: 'Chronicle Deck';
+	display: block;
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+.wrap b {
+	color: #DE4A22;
+}
+
+.intro {
+	margin: 0 0 15px 0;
+}
+
+.bio {
+	font-family: 'Gotham C2 Text';
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 11px 0 30px 0;
+	float: left;
+}
+
+.wrap .bio a {
+	text-decoration: none;
+}
+
+.wrap .p2 {
+	margin-top: 10px;
+}
+
+.float {
+	margin: 0 0 25px 0;
+}
+
+.cta {
+	display: block;
+	width: 200px;
+	height: 35px;
+	background-color: #90B858;
+	border-radius: 25px;
+	font-family: 'Gotham C2 Text';
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 35px;
+	clear: both;
+	transition: all 0.4s ease;
+	font-size: 0.8em;
+}
+
+.wrap .contact a:hover {
+	transition: all 0.4s ease;
+	box-shadow: 0px 0px 10px 0px #90B858;
+	color: #FCFCF9;
+}
+
+.social a .social-icon {
+	height: 32px;
+	width: 32px;
+}
+
+@media (max-width: 800px) {
+	.wrap {
+		width: 30em;
+		height: 100%;
+		margin: 4.5em auto;
+		color: #3C3838;
+	}
+}
+
+@media (max-width: 500px) {
+	.wrap {
+		width: 23em;
+		height: 100%;
+		margin: 4.5em auto;
+		color: #3C3838;
+	}
+}
+
+
+/* add Michael BoLoss du 31 */
+.background{position:absolute;width:100%;height:100vh;top:0;left:0;background:url(assets/halftone.png);z-index:-1;opacity: .6;}
+a svg{transition:0.4s cubic-bezier(.48,.01,0,.99);transform:rotate(90deg);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg)}
+a svg *{position:relative;z-index:2;}
+a svg circle{position:relative;z-index:1;transition:0.4s cubic-bezier(.48,.01,0,.99);opacity:0;position:relative;fill: #DE4A22;}
+a svg:hover .logal-social {fill: #fff;}
+a svg:hover{transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg); color: blue;}
+a svg:hover circle{opacity:1;}
+#img_fond {z-index:2;position: absolute;width: 100%;height: 100%;top:0;left:0;}
+#img_fond img{position:absolute;bottom:0;left:0;width:100%;}
+#texte_fond{position:absolute;bottom:8vw;right:10vw;text-transform: uppercase;transform:translate(0%,-50%);-webkit-transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);font-size: 20vw;z-index:1;color:#FCEDE5;font-family:'Gotham Ultra';}
+#img_fond2{background: url(css/assets/photo-folio3.png) 50% 100%;position: absolute;left: -5%;height: 110%;width: 110%;bottom: -3%;z-index: 1;background-position: 50% 100% !important;background-repeat: no-repeat !important;background-size: contain !important;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+
+.wrap{display:table;}
+.col1{padding-left:27px;}
+.col1, .social{display:table-cell;vertical-align: top}
+.social > div{padding: 0 20px 0 0;position:relative;}
+.social > div::after{content:"";width:1px;bottom:8px;position:absolute;top:4px;right:-1px;background:#3C3838;}
+.social{padding-top:90px;}
+
